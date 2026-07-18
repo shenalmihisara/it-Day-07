@@ -76,15 +76,38 @@
 
 // let inStockItems = products.filter(product => product.inStock == false);
 
-const productsList = [
-    {name: "bun", inStock: true},
-    {name: "car", inStock: false},
-    {name: "bat", inStock: true},
-    {name: "van", inStock: false}
-]
+// const productsList = [
+//     {name: "bun", inStock: true},
+//     {name: "car", inStock: false},
+//     {name: "bat", inStock: true},
+//     {name: "van", inStock: false}
+// ]
 
-// for(product of productsList){
-//     console.log(product);
-// }
+// // for(product of productsList){
+// //     console.log(product);
+// // }
 
-productsList.forEach(product => console.log(product));
+// productsList.forEach(product => console.log(product));
+
+// const letterList = ["B","A","D","C"];
+
+// let sortAr = letterList.toSorted();
+
+// console.log(sortAr);
+
+// const employeeSalary = [45000,75000,100000,150000];
+
+// let newSalaryArry = employeeSalary.map(salary => salary*2);
+
+// console.log(newSalaryArry);
+
+// const studentList = [
+//     {id:"001",name:"Saman"},
+//     {id:"002",name:"Kamal"},
+//     {id:"003",name:"Amal"},
+//     {id:"004",name:"Ranil"}
+// ];
+
+// let student = studentList.find(student => student.id==="003")
+
+// console.log(student);
